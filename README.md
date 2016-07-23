@@ -49,6 +49,21 @@
  ./adsb_run.sh
 ```
       
+## Listen to FM stations on Intel Galileo
+
+###Hardware
+  * [USB To 3.5mm Jack Audio Adapter](https://www.google.co.in/search?q=Logitech+USB+To+3.5mm+Jack+Audio+Adapter&tbm=isch&imgil=R6VK4AJI1GXaaM%253A%253BaXYJSzVAPKVo2M%253Bhttp%25253A%25252F%25252Fnicogroup.net%25252Flogitech-3.5mm-usb-audio-jack&source=iu&pf=m&fir=R6VK4AJI1GXaaM%253A%252CaXYJSzVAPKVo2M%252C_&usg=__AFjkJ4Ya-iGRCD3rj3Eg6YKvbJk%3D&biw=1697&bih=855&ved=0ahUKEwjfkLK6i4nOAhXIpo8KHebFAksQyjcINw&ei=RyCTV5_RJMjNvgTmi4vYBA#tbm=isch&q=Logitech+USB+To+3.5mm+Jack+Audio+Adapter)
+
+
+### Listen to FM stations
+
+
+  Run fm_listen_poky script to listen to FM stations and mention the frequency as an argument.
+  
+```bash
+  ./fm_listen_poky.sh 91.1
+```    
+
 ## Reference
 
 * [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
