@@ -21,10 +21,10 @@ echo "Configuration started ......"
 echo "Please run this script only once, after that delete it"
 echo "Watch the progress bar......"
 #set dns
-echo "nameserver 10.42.0.1" > /etc/resolv.conf
-echo "nameserver 192.168.0.1" >> /etc/resolv.conf
-echo "nameserver 8.8.8.8" >> /etc/resolv.conf
-chattr +i /etc/resolv.conf
+#echo "nameserver 10.42.0.1" > /etc/resolv.conf
+#echo "nameserver 192.168.0.1" >> /etc/resolv.conf
+#echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+#chattr +i /etc/resolv.conf
 #Update opkg list
 opkg update
 echo "Progress |####                                                  |"
