@@ -61,6 +61,7 @@ git clone https://github.com/MalcolmRobb/dump1090.git
 cd dump1090
 echo "Progress |#################################################     |"
 sleep 2
+mv /home/root/ADSB-dump1090-for-Intel-Galileo/store_data/interactive.c /rtlsdr/dump1090/
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 make    
 echo "Progress |######################################################|"             
