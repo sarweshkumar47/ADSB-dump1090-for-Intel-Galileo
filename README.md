@@ -43,7 +43,7 @@
 ## Run Mode S decoder
 
 
-  Run adsb_run script, to see the decoded aircrafts.
+  Run adsb_run script, to see the decoded aircrafts. This code also stores data locally named decodeddata.csv.
 
 ```bash  
  ./adsb_run.sh
