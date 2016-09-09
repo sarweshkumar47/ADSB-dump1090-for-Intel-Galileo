@@ -26,7 +26,7 @@ echo "Watch the progress bar......"
 #echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 #chattr +i /etc/resolv.conf
 #Update opkg list
-opkg update
+#opkg update
 echo "Progress |####                                                  |"
 sleep 1
 #Libusb config
