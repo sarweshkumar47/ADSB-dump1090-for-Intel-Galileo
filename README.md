@@ -1,5 +1,5 @@
 # ADSB-dump1090-for-Intel-Galileo
-###Mode S decoder for RTL devices
+### Mode S decoder for RTL devices
 
 ## SDR (Software Defined Radio)
 
@@ -19,7 +19,7 @@
   RTL2832U chipset. RTL-SDR turns your Realtek RTL2832 based DVB dongle into a SDR receiver.
  
       
-##Hardware
+## Hardware
      
       
   * [NooElec RTLSDR Receiver](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini-rtl2832-r820t.html)
@@ -51,7 +51,7 @@
       
 ## Listen to FM stations on Intel Galileo
 
-###Hardware
+### Hardware
   * [USB To 3.5mm Jack Audio Adapter](https://www.google.co.in/search?q=Logitech+USB+To+3.5mm+Jack+Audio+Adapter&tbm=isch&imgil=R6VK4AJI1GXaaM%253A%253BaXYJSzVAPKVo2M%253Bhttp%25253A%25252F%25252Fnicogroup.net%25252Flogitech-3.5mm-usb-audio-jack&source=iu&pf=m&fir=R6VK4AJI1GXaaM%253A%252CaXYJSzVAPKVo2M%252C_&usg=__AFjkJ4Ya-iGRCD3rj3Eg6YKvbJk%3D&biw=1697&bih=855&ved=0ahUKEwjfkLK6i4nOAhXIpo8KHebFAksQyjcINw&ei=RyCTV5_RJMjNvgTmi4vYBA#tbm=isch&q=Logitech+USB+To+3.5mm+Jack+Audio+Adapter)
 
 
