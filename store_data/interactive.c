@@ -451,7 +451,7 @@ void interactiveShowData(void) {
 
 	
 		    // Writing data to file
-		    FILE *fp = fopen("/home/root/decodeddata.csv", "a");
+		    FILE *fp = fopen("/adsbdata/decodeddata.csv", "a");
 		    if (fp == NULL)
 		    {
     			printf("Error opening file!\n");
