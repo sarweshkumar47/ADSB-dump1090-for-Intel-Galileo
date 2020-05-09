@@ -36,7 +36,7 @@ sleep 2
 #RTL library Source compilation
 mkdir -p /rtlsdr
 cd /rtlsdr
-git clone https://github.com/steve-m/librtlsdr
+git clone --depth 1 https://github.com/steve-m/librtlsdr
 cd librtlsdr
 #git clone git://git.osmocom.org/rtl-sdr.git    # not works with proxy
 #cd rtl-sdr
@@ -57,7 +57,7 @@ echo "/usr/local/lib" > /etc/ld.so.conf
 ldconfig
 #Mode S decoder
 cd /rtlsdr
-git clone https://github.com/MalcolmRobb/dump1090.git
+git clone --depth 1 https://github.com/MalcolmRobb/dump1090.git
 cd dump1090
 echo "Progress |#################################################     |"
 sleep 2
